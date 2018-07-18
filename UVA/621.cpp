@@ -27,6 +27,7 @@ bool isMatching(int firstDigits, int numberToCheck) {
 int main() {
   int numberQueries;
   cin >> numberQueries;
+  cout << "Number of queries is: " << numberQueries;
   for (int i = 0; i < numberQueries; i++) {
     int currentQuery;
     cin >> currentQuery;
