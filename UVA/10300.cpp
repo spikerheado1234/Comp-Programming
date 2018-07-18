@@ -8,16 +8,16 @@ int main() {
   for (int i = 0; i < numberQueries; i++) {
     int farmers;
     cin >> farmers;
-    int germanBudget;
+    long germanBudget = 0;
     for (int j = 0; j < farmers; j++) {
-      int sizeFarm;
-      int numberAnimals;
-      int friendliness;
+      long sizeFarm;
+      long numberAnimals;
+      long friendliness;
       cin >> sizeFarm;
       cin >> numberAnimals;
       cin >> friendliness;
       germanBudget += sizeFarm * friendliness;
     }
-    cout << germanBudget;
+    cout << germanBudget << endl;
   }
 }
